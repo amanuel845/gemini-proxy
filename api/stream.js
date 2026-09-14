@@ -2,7 +2,7 @@ import { GoogleGenAI } from "@google/genai";
 
 export const config = { runtime: "edge" };
 
-const DEFAULT_MODEL = "gemini-2.5-flash";
+const DEFAULT_MODEL = "gemini-3.6-flash";
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
